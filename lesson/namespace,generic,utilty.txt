@@ -1,0 +1,16 @@
+---Namespace: o'zgaruvchi nomlarini to'qnashib ketishini oldini oladi , namespace biz xohlagan typelarni unign scopeda ishlata olamiz
+---Generics: Generics typelar typescriptda typelarni dinamik tarizda berishga imkon beradi . Agar biz generic typeda song biron type bergadigan bolsak genericic typemiz osha typega o'zgaradi . 
+---Utility: --Partial : typescriptda yaratilgan typelarni optinal xolatga o'tkazish uchun ishlatilinadi
+            --Requrid : typescriptdagi qiymatlarni optinal xolatda required xolatga yani majburiy xolatga o'tkazadi
+            --NoneNullabl :  agar typeda null va undofimde yani aniqlangmagan qiymatni ajratib aniqlangan qiymatni qoldiradi 
+            --Record : agar yaratilgan typeda hammasini typelarni bir xil bo'lsa unda record utilis ishlatilinadi
+            --Readonly: Obyekt xususiyatlarini faqat o'qish mumkin bo'lgan holga keltiradi.
+            --Pick: Mavjud tipdan faqat kerakli xususiyatlarni ajratib olish imkonini beradi.
+            --Exclude: ikki typeni birlashtirib bir bir type yoq bolgan qiymatlarni qaytarib beradi
+            --Omit: yaratilgan object typeni orticha qiymatlarini o'chirib yangi type yaratish uchun ishlatilinadi
+            --Parametrs: funictionda ichidagi parametr typelarni ajratib yangi type qilib olib beradi 
+            --ConstructorParametrs: class konstructor parametrlarini typeni olish uchun ishlatilinadi
+            --Returntype: returnda nima type qaytayotganini bilsak bo'ladi
+            --InstanceType: constructorda qaytayotgan typelarni bilsak boladi
+            --Upercase: typelarni katta har qilib beradi
+            

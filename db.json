@@ -1,0 +1,21 @@
+{
+  "fetchLeftCards": [
+    {
+      "image": "./img/Image.png",
+      "category": "Flights",
+      "title": "Passengers Suffer as Crowded Field Puts Pressure on Europe’s Airlines",
+      "description": "Weaker carriers have fallen by the wayside amid fierce competition, while others have been hit by bad luck. The result: thousands of canceled flights.",
+      "date": "Aug 6",
+      "comments": 342,
+      "likes": 882
+    }
+    
+  ],
+  "fetchRightCards": [
+    {
+      "image": "./img/fetchimg.png",
+      "title": "Office Meetings Leave the Office",
+      "time": "15 minutes ago"
+    }
+  ]
+}

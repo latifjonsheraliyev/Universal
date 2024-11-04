@@ -1,0 +1,13 @@
+--- Enum Types: enum TypeScript'da cheklangan qiymatlar to'plamini belgilash uchun ishlatiladi. 
+    Buning yordamida bir guruh o'xshash qiymatlarni bir joyda saqlashimiz mumkin.
+
+--- Tuple Types: tuple tiplari TypeScript'da aniq tartib va aniq tiplarga ega qiymatlar yig'indisi
+    uchun ishlatiladi. tuple turidagi o'zgaruvchi qiymatlarning turi va tartibi qat'iy belgilanadi.
+
+--- Intersection Types: intersection tiplari ikki yoki undan ortiq turlarni birlashtiradi va
+    ularning xususiyatlarini bir obyektda birlashtiradi. Bunda barcha turlar talab qilgan xususiyatlar
+    yagona o'zgaruvchida mavjud bo'lishi kerak. & operatori bilan ishlatiladi.
+
+
+    enum cheklangan qiymatlarnit toplamini belgilash uchun ishlatilinadi
+    buning yoradamida biz bir guruh oxshash qiymatlarni bitta joyga saqlashimiz mumkin

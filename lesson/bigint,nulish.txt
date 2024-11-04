@@ -1,0 +1,13 @@
+---BigInt: BigInt tipi juda katta butun sonlar bilan ishlash uchun mo'ljallangan turdir
+   BigInt sonlarni ifodalash uchun n qo'shilib yoziladi.
+   BigInt sonlarni faqat BigInt bilan ishlatilishi mumkin, 
+   number bilan aralash ishlatilishi xatolik chiqaradi.
+
+---Nullish assignment: o'zgaruvchi qiymati null yoki undefined bo'lsa, 
+   unga berilgan boshqa qiymatni tayinlaydi. 
+   Bu operator ?? (nullish coalescing) operatoriga o'xshaydi, lekin 
+   o'zgaruvchining qiymatini yangilaydi.
+
+---tsconfig.json: fayli TypeScript loyihangizning sozlamalarini belgilash uchun ishlatiladi.
+ Bu fayl TypeScript qanday qilib kodni kompilyatsiya qilishini va qanday cheklovlarni qo'yishini boshqaradi.
+ 
