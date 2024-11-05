@@ -1120,7 +1120,7 @@ input {
 }
 
 .fetch-card {
-  height: 245px;
+  height: 300px;
   padding: 20px;
   background-color: #fff;
   display: flex;
@@ -1128,6 +1128,7 @@ input {
   justify-content: space-between;
   border-radius: 10px;
 }
+
 .fetch-card .fetch-card-left {
   width: 40%;
   height: 100%;
@@ -1248,21 +1249,88 @@ input {
   text-align: center;
   color: #262d33;
 }
-
-@media (max-width: 1300px) {
-  .fetch-right {
+@media (max-width: 900px) {
+  .fetch-right{
     display: none;
   }
-  .fetch-left {
+}
+@media (max-width: 1000px) {
+  .fetch-card{
+    height: 100%;
+  }
+  .fetch-card-left img{
+    width: 100%;
+  }
+  
+}
+
+@media (max-width: 1250px) {
+  .fetch-left{
     width: 100%;
   }
 }
-@media (max-width: 980px) {
-  .fetch-card {
-    display: flex;
+@media (max-width: 925px) {
+  .fetch > div {
     flex-direction: column;
   }
+
+  .fetch-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .fetch-card .fetch-card-left,
+  .fetch-card .fetch-card-right {
+    width: 100%;
+  }
+
+  .fetch-card .fetch-card-left {
+    margin-bottom: 10px;
+  }
+
+  .fetch-right-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .fetch-right-card img {
+    width: 100%;
+    height: auto;
+  }
+
+  .fetch-right-header h4,
+  .fetch-right-footer h4 {
+    font-size: 12px;
+  }
 }
+@media (max-width: 280px) {
+  .fetch > div {
+    padding: 5px;
+  }
+
+  .fetch-card {
+    padding: 10px;
+  }
+
+  .fetch-card h3 {
+    font-size: 16px;
+  }
+
+  .fetch-card p {
+    font-size: 12px;
+  }
+
+  .fetch-right-card .fetch-txt h6 {
+    font-size: 12px;
+  }
+
+  .fetch-right-card .fetch-txt p {
+    font-size: 10px;
+  }
+}
+
+
+
 .hot {
   background-color: #262d33;
 }
@@ -1441,6 +1509,103 @@ input {
   justify-content: space-between;
 }
 
+
+@media (max-width: 900px) {
+  .hot > div {
+    flex-direction: column;
+    padding-top: 40px;
+    gap: 20px;
+  }
+
+  .hot-left, .hot-right {
+    width: 100%;
+  }
+
+  .hot-left {
+    height: auto;
+    padding: 20px;
+    gap: 15px;
+  }
+
+  .hot-left .hot-left-bottom {
+    gap: 40px;
+  }
+
+  .hot-left .hot-left-bottom h2 {
+    font-size: 28px;
+    line-height: 130%;
+  }
+
+  .hot-left .hot-left-bottom button {
+    width: 100%;
+    height: 35px;
+    font-size: 12px;
+  }
+
+  .hot-right-top {
+    padding: 15px;
+  }
+
+  .hot-right-top .hot-text {
+    width: 100%;
+  }
+
+  .hot-right-top .hot-text h4 {
+    font-size: 18px;
+    line-height: 130%;
+  }
+
+  .hot-right-top .hot-text h6 {
+    font-size: 12px;
+  }
+
+  .hot-right-top .hot-text button {
+    width: 100%;
+    height: 35px;
+  }
+
+  .hot-card {
+    width: 100%;
+    padding: 15px;
+    gap: 10px;
+  }
+
+  .hot-card h4 {
+    font-size: 14px;
+  }
+
+  .hot-card h5 {
+    font-size: 12px;
+  }
+
+  .hot-card p {
+    font-size: 10px;
+  }
+
+  .hot-right-bottom {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  .hot-left .hot-left-bottom h2 {
+    font-size: 22px;
+  }
+
+  .hot-right-top .hot-text h4 {
+    font-size: 16px;
+  }
+  .female{
+    display: none;
+  }
+}
+
+
+
+
+
+
 .footer > div {
   display: flex;
   flex-direction: column;
@@ -1576,4 +1741,82 @@ input {
   color: #939699;
 }
 
-/*# sourceMappingURL=style.css.map */
+.footer {
+  padding: 20px;
+}
+.footer-top,
+.footer-bottom {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .footer-link {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .footer-icons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-icons .icons-left {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .copyright {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-top h3 {
+    font-size: 24px;
+    line-height: 1.2;
+  }
+
+  .footer-top .search input {
+    width: 100%;
+  }
+  
+  .footer-top .search button {
+    width: auto;
+    padding: 0 15px;
+  }
+
+  .footer-link {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer-icons .icons-right button {
+    width: 36px;
+    height: 36px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 280px) {
+  .footer-top h3 {
+    font-size: 20px;
+  }
+
+  .footer-link .footer-links h5,
+  .footer-link .footer-links a,
+  .footer-icons .icons-left a,
+  .copyright p,
+  .copyright h6 {
+    font-size: 12px;
+  }
+
+  .footer-icons .icons-right button {
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+  }
+}
+
